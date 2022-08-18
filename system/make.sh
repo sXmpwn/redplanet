@@ -12,3 +12,5 @@ mv redplanet.bin iso/boot/
 grub-mkrescue -o redplanet.iso iso
 
 qemu-system-i386 redplanet.iso
+
+rm redplanet.iso
